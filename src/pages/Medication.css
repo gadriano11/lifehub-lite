@@ -1,0 +1,36 @@
+.medication-container {
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .back-button {
+    background-color: #1e90ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .back-button:hover {
+    background-color: #1c86ee;
+  }
+  
+  .medication-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .medication-item {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+  }
+  

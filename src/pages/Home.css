@@ -1,0 +1,134 @@
+/* Container Styles */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  /* Responsive Rectangular Tiles for Health Status and SOS Button */
+  .status-container,
+  .sos-container {
+    width: 80vw;             /* 80% of the viewport width */
+    max-width: 600px;        /* Max width for large screens */
+    height: 15vw;            /* Height relative to the width (rectangular shape) */
+    max-height: 120px;       /* Max height to prevent it from becoming too tall */
+    margin: 0 auto;
+  }
+  
+  /* Health Status Bar */
+  .health-status {
+    width: 100%;
+    height: 100%;
+    font-size: 1.5rem;
+    color: white;
+    background-color: green;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* SOS Button */
+  .sos-button {
+    width: 100%;
+    height: 100%;
+    font-size: 2rem;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s;
+  }
+  
+  .sos-button:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Responsive Square Tiles for Daily Reminder and Medication */
+  .reminders-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .icon-button {
+    width: 30vw;             /* 30% of the viewport width (square shape) */
+    height: 30vw;            /* Height equal to the width */
+    max-width: 200px;        /* Max width for large screens */
+    max-height: 200px;       /* Max height for large screens */
+    background-color: #e0e0e0;
+    border: none;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+  
+  .icon-button p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #1e90ff;
+  }
+  
+  /* Media Queries for Smaller Screens */
+  @media (max-width: 600px) {
+    .status-container,
+    .sos-container {
+      width: 90vw;           /* Increase width to 90% of the viewport */
+      height: 18vw;          /* Increase height for a balanced look */
+    }
+  
+    .icon-button {
+      width: 40vw;           /* Increase size of square tiles */
+      height: 40vw;
+    }
+  }
+  
+  /* Container for Check-In Button (same size as the icon buttons) */
+.check-in-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  /* Check-In Button (same size as Daily Reminder and Medication) */
+  .check-in-button {
+    width: 30vw;             /* 30% of the viewport width (square shape) */
+    height: 30vw;            /* Height equal to the width */
+    max-width: 200px;        /* Max width for larger screens */
+    max-height: 200px;       /* Max height for larger screens */
+    background-color: #e0e0e0;
+    border: none;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+  
+  .check-in-button p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #1e90ff;
+  }
+  
+  /* Media Queries for Smaller Screens */
+  @media (max-width: 600px) {
+    .check-in-button {
+      width: 40vw;           /* Increase size of square tiles on smaller screens */
+      height: 40vw;
+    }
+  }
+  

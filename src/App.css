@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 100vh;
+  padding: 20px;
+}
+
+.sos-button {
+  width: 80%;
+  padding: 30px;
+  font-size: 3rem;
+  background-color: #ff0000;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.reminders-container {
+  display: flex;
+  gap: 20px;
+}
+
+.reminder-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.5rem;
+  color: #1e90ff;
+}
+
+.health-status {
+  width: 80%;
+  padding: 20px;
+  font-size: 1.5rem;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.settings-icon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 2rem;
+  cursor: pointer;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .sos-button {
+    width: 100%;
+  }
+
+  .reminders-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .health-status {
+    width: 100%;
+  }
+}
+
+body {
+  transition: filter 0.2s ease-in-out;
+}
+
+
