@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/lifehub-lite/static/css/main.bce1561b.css",
+    "main.js": "/lifehub-lite/static/js/main.a87454d4.js",
+    "static/js/453.9d20ad4a.chunk.js": "/lifehub-lite/static/js/453.9d20ad4a.chunk.js",
+    "index.html": "/lifehub-lite/index.html",
+    "main.bce1561b.css.map": "/lifehub-lite/static/css/main.bce1561b.css.map",
+    "main.a87454d4.js.map": "/lifehub-lite/static/js/main.a87454d4.js.map",
+    "453.9d20ad4a.chunk.js.map": "/lifehub-lite/static/js/453.9d20ad4a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bce1561b.css",
+    "static/js/main.a87454d4.js"
+  ]
+}
